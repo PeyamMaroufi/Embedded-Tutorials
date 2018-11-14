@@ -1,9 +1,9 @@
-"C:\Embedded_Programming\Embedded Tutorials\Lesson 2\main.c"
+"C:\Embedded_Programming\Embedded Tutorials\Lesson 3\main.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-C:\Embedded_Programming\Embedded Tutorials\Lesson 2
+C:\Embedded_Programming\Embedded Tutorials\Lesson 3
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc
 -I

@@ -1,43 +1,29 @@
 [
   {
-    "ID": "c:@counter",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "counter",
-    "location": {
-      "column": "5",
-      "line": "1",
-      "path": "C:\\Embedded_Programming\\Embedded Tutorials\\Lesson 2\\main.c"
-    },
-    "name": "counter",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "2",
-      "path": "C:\\Embedded_Programming\\Embedded Tutorials\\Lesson 2\\main.c"
+      "line": "11",
+      "path": "C:\\Embedded_Programming\\Embedded Tutorials\\Lesson 3\\main.c"
     },
     "name": "main",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@42@F@main@p_int",
+    "ID": "c:main.c@924@F@main@counter",
     "What": "Variable",
     "defdec": "Def",
-    "display": "p_int",
+    "display": "counter",
     "location": {
-      "column": "10",
-      "line": "4",
-      "path": "C:\\Embedded_Programming\\Embedded Tutorials\\Lesson 2\\main.c"
+      "column": "12",
+      "line": "26",
+      "path": "C:\\Embedded_Programming\\Embedded Tutorials\\Lesson 3\\main.c"
     },
-    "name": "p_int",
+    "name": "counter",
     "origin": "project_file",
     "scope": null
   }
