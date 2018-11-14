@@ -1,0 +1,170 @@
+[
+  {
+    "ID": "c:main.c@118@macro@RCGCGPIO",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCGCGPIO",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Embedded_Programming\\Embedded Tutorials\\Lesson 4\\main.c"
+    },
+    "name": "RCGCGPIO",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@170@macro@GPIOF_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOF_BASE",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Embedded_Programming\\Embedded Tutorials\\Lesson 4\\main.c"
+    },
+    "name": "GPIOF_BASE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@202@macro@GPIO_OFFSET_DIR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_OFFSET_DIR",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "C:\\Embedded_Programming\\Embedded Tutorials\\Lesson 4\\main.c"
+    },
+    "name": "GPIO_OFFSET_DIR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@234@macro@GPIO_OFFSET_DIG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_OFFSET_DIG",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "C:\\Embedded_Programming\\Embedded Tutorials\\Lesson 4\\main.c"
+    },
+    "name": "GPIO_OFFSET_DIG",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@266@macro@GPIO_LED_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_LED_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "C:\\Embedded_Programming\\Embedded Tutorials\\Lesson 4\\main.c"
+    },
+    "name": "GPIO_LED_OFFSET",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@298@macro@GPIO_DIR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DIR",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "C:\\Embedded_Programming\\Embedded Tutorials\\Lesson 4\\main.c"
+    },
+    "name": "GPIO_DIR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@369@macro@GPIO_DIG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_DIG",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "C:\\Embedded_Programming\\Embedded Tutorials\\Lesson 4\\main.c"
+    },
+    "name": "GPIO_DIG",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@440@macro@GPIO_LED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_LED",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "C:\\Embedded_Programming\\Embedded Tutorials\\Lesson 4\\main.c"
+    },
+    "name": "GPIO_LED",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delay",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void delay(int)",
+    "location": {
+      "column": "6",
+      "line": "13",
+      "path": "C:\\Embedded_Programming\\Embedded Tutorials\\Lesson 4\\main.c"
+    },
+    "name": "delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "15",
+      "path": "C:\\Embedded_Programming\\Embedded Tutorials\\Lesson 4\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delay",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void delay(int)",
+    "location": {
+      "column": "6",
+      "line": "42",
+      "path": "C:\\Embedded_Programming\\Embedded Tutorials\\Lesson 4\\main.c"
+    },
+    "name": "delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1145@F@delay@counter",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "counter",
+    "location": {
+      "column": "9",
+      "line": "43",
+      "path": "C:\\Embedded_Programming\\Embedded Tutorials\\Lesson 4\\main.c"
+    },
+    "name": "counter",
+    "origin": "project_file",
+    "scope": null
+  }
+]
