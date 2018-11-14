@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.32.1.169/W32 for ARM                  13/Nov/2018  13:39:22
+# IAR ELF Linker V8.32.1.169/W32 for ARM                  13/Nov/2018  17:02:52
 # Copyright 2007-2018 IAR Systems AB.
 #
 #    Output file  =  
@@ -10,7 +10,7 @@
 #        C:\Embedded_Programming\Embedded Tutorials\Lesson
 #        2\Debug\List\project.map
 #    Command line =  
-#        -f C:\Users\PMA\AppData\Local\Temp\EW1FD6.tmp
+#        -f C:\Users\PMA\AppData\Local\Temp\EW706B.tmp
 #        ("C:\Embedded_Programming\Embedded Tutorials\Lesson
 #        2\Debug\Obj\main.o" --no_out_extension -o
 #        "C:\Embedded_Programming\Embedded Tutorials\Lesson
@@ -58,21 +58,21 @@ define block HEAP with size = 8K, alignment = 8 { };
   .intvec          ro code          0x0    0x40  vector_table_M.o [4]
                                  - 0x40    0x40
 
-"P1":                                     0x104
+"P1":                                     0x114
   .text            ro code         0x40    0x3a  zero_init3.o [4]
   .text            ro code         0x7a     0x2  vector_table_M.o [4]
-  .text            ro code         0x7c    0x28  data_init.o [4]
-  .text            ro code         0xa4    0x22  fpinit_M.o [3]
-  .iar.init_table  const           0xc8    0x10  - Linker created -
-  .text            ro code         0xd8    0x1e  cmain.o [4]
-  .text            ro code         0xf6     0x4  low_level_init.o [2]
-  .text            ro code         0xfc    0x18  main.o [1]
-  .text            ro code        0x114     0x4  exit.o [2]
-  .text            ro code        0x118     0xa  cexit.o [4]
-  .text            ro code        0x124    0x14  exit.o [5]
-  .text            ro code        0x138     0xc  cstartup_M.o [4]
-  .rodata          const          0x144     0x0  zero_init3.o [4]
-                                - 0x144   0x104
+  .text            ro code         0x7c    0x28  main.o [1]
+  .text            ro code         0xa4    0x28  data_init.o [4]
+  .text            ro code         0xcc    0x22  fpinit_M.o [3]
+  .iar.init_table  const           0xf0    0x10  - Linker created -
+  .text            ro code        0x100    0x1e  cmain.o [4]
+  .text            ro code        0x11e     0x4  low_level_init.o [2]
+  .text            ro code        0x122     0x4  exit.o [2]
+  .text            ro code        0x128     0xa  cexit.o [4]
+  .text            ro code        0x134    0x14  exit.o [5]
+  .text            ro code        0x148     0xc  cstartup_M.o [4]
+  .rodata          const          0x154     0x0  zero_init3.o [4]
+                                - 0x154   0x114
 
 "P2", part 1 of 2:                          0x4
   .bss             zero     0x2000'0000     0x4  main.o [1]
@@ -87,7 +87,7 @@ Unused ranges:
 
          From           To      Size
          ----           --      ----
-        0x144     0x3'ffff  0x3'febc
+        0x154     0x3'ffff  0x3'feac
   0x2000'0004  0x2000'0007       0x4
   0x2000'1008  0x2000'7fff    0x6ff8
 
@@ -115,9 +115,9 @@ command line/config:
     Total:
 
 C:\Embedded_Programming\Embedded Tutorials\Lesson 2\Debug\Obj: [1]
-    main.o                 24                 4
+    main.o                 40                 4
     -------------------------------------------
-    Total:                 24                 4
+    Total:                 40                 4
 
 dl7M_tln.a: [2]
     exit.o                  4
@@ -148,7 +148,7 @@ shb_l.a: [5]
     Gaps                    4        2
     Linker created                  16    4 096
 -----------------------------------------------
-    Grand Total:          306       18    4 100
+    Grand Total:          322       18    4 100
 
 
 *******************************************************************************
@@ -157,27 +157,27 @@ shb_l.a: [5]
 
 Entry                       Address  Size  Type      Object
 -----                       -------  ----  ----      ------
-.iar.init_table$$Base          0xc8         --   Gb  - Linker created -
-.iar.init_table$$Limit         0xd8         --   Gb  - Linker created -
-?main                          0xd9        Code  Gb  cmain.o [4]
+.iar.init_table$$Base          0xf0         --   Gb  - Linker created -
+.iar.init_table$$Limit        0x100         --   Gb  - Linker created -
+?main                         0x101        Code  Gb  cmain.o [4]
 CSTACK$$Base            0x2000'0008         --   Gb  - Linker created -
 CSTACK$$Limit           0x2000'1008         --   Gb  - Linker created -
-Region$$Table$$Base            0xc8         --   Gb  - Linker created -
-Region$$Table$$Limit           0xd8         --   Gb  - Linker created -
-__cmain                        0xd9        Code  Gb  cmain.o [4]
-__exit                        0x125  0x14  Code  Gb  exit.o [5]
-__iar_data_init3               0x7d  0x28  Code  Gb  data_init.o [4]
-__iar_init_vfp                 0xa5        Code  Gb  fpinit_M.o [3]
-__iar_program_start           0x139        Code  Gb  cstartup_M.o [4]
+Region$$Table$$Base            0xf0         --   Gb  - Linker created -
+Region$$Table$$Limit          0x100         --   Gb  - Linker created -
+__cmain                       0x101        Code  Gb  cmain.o [4]
+__exit                        0x135  0x14  Code  Gb  exit.o [5]
+__iar_data_init3               0xa5  0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp                 0xcd        Code  Gb  fpinit_M.o [3]
+__iar_program_start           0x149        Code  Gb  cstartup_M.o [4]
 __iar_zero_init3               0x41  0x3a  Code  Gb  zero_init3.o [4]
-__low_level_init               0xf7   0x4  Code  Gb  low_level_init.o [2]
+__low_level_init              0x11f   0x4  Code  Gb  low_level_init.o [2]
 __vector_table                  0x0        Data  Gb  vector_table_M.o [4]
-_call_main                     0xe5        Code  Gb  cmain.o [4]
-_exit                         0x119        Code  Gb  cexit.o [4]
-_main                          0xf3        Code  Gb  cmain.o [4]
+_call_main                    0x10d        Code  Gb  cmain.o [4]
+_exit                         0x129        Code  Gb  cexit.o [4]
+_main                         0x11b        Code  Gb  cmain.o [4]
 counter                 0x2000'0000   0x4  Data  Gb  main.o [1]
-exit                          0x115   0x4  Code  Gb  exit.o [2]
-main                           0xfd  0x18  Code  Gb  main.o [1]
+exit                          0x123   0x4  Code  Gb  exit.o [2]
+main                           0x7d  0x28  Code  Gb  main.o [1]
 
 
 [1] = C:\Embedded_Programming\Embedded Tutorials\Lesson 2\Debug\Obj
@@ -186,7 +186,7 @@ main                           0xfd  0x18  Code  Gb  main.o [1]
 [4] = rt7M_tl.a
 [5] = shb_l.a
 
-    306 bytes of readonly  code memory
+    322 bytes of readonly  code memory
      18 bytes of readonly  data memory
   4 100 bytes of readwrite data memory
 
