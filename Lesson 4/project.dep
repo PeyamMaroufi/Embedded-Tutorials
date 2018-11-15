@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>4</fileVersion>
-    <fileChecksum>1475063159</fileChecksum>
+    <fileChecksum>1682587813</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
@@ -16,6 +16,7 @@
             <file>$PROJ_DIR$\Debug\Obj\project.pbd</file>
             <file>$PROJ_DIR$\Debug\List\project.map</file>
             <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\lm4f120h5qr.h</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>

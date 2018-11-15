@@ -1,14 +1,14 @@
 /* Macro can be anything as long as they make sense. You can add them together
    subtract them and so.*/
 
-#define RCGCGPIO (*((unsigned int *) 0x400FE608U))
+#define RCGCGPIO (*((volatile unsigned int *) 0x400FE608U))
 #define GPIOF_BASE 0x40025000U
 #define GPIO_OFFSET_DIR 0x400U
 #define GPIO_OFFSET_DIG 0x51CU
 #define GPIO_LED_OFFSET 0x3FCU
-#define GPIO_DIR (*((unsigned int *) (GPIOF_BASE + GPIO_OFFSET_DIR)))
-#define GPIO_DIG (*((unsigned int *) (GPIOF_BASE + GPIO_OFFSET_DIG)))
-#define GPIO_LED (*((unsigned int *) (GPIOF_BASE + GPIO_LED_OFFSET)))
+#define GPIO_DIR (*((volatile unsigned int *) (GPIOF_BASE + GPIO_OFFSET_DIR)))
+#define GPIO_DIG (*((volatile unsigned int *) (GPIOF_BASE + GPIO_OFFSET_DIG)))
+#define GPIO_LED (*((volatile unsigned int *) (GPIOF_BASE + GPIO_LED_OFFSET)))
 
 void delay(int i);
 
