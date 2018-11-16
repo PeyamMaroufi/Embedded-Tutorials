@@ -25,23 +25,15 @@ int main() {
     // or using the header file
     GPIO_PORTF_DEN_R  |= (LED_RED|LED_BLUE|LED_GREEN);
 
+    GPIO_PORTF_DATA_R |= LED_BLUE;
    
     
     while(1){
       
        // Turn the red LED on
-      GPIO_PORTF_DATA_R= LED_RED;
+      GPIO_PORTF_DATA_R |= LED_RED;
       delay(1000000);
-       // turn two LEDs
-      GPIO_PORTF_DATA_R |= LED_GREEN;
-      delay(1000000);
-       // turn three LEDs
-      GPIO_PORTF_DATA_R= GPIO_PORTF_DATA_R | LED_GREEN|LED_BLUE ;
-      delay(1000000);
-       // Turn off. do a dinary bitwise operation and you will see that the result
-       // is 00000000
-      GPIO_PORTF_DATA_R = LED_RED & LED_GREEN & LED_BLUE;
-      delay(1000000);
+      GPIO_PORTF_DATA_R &= ~LED_RED;
     }
 
     return 0;

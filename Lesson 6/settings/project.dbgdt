@@ -1003,7 +1003,7 @@
             </BasePane-34106>
             <IarPane-34106>
                 <expressions>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>
