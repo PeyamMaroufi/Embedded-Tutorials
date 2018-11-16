@@ -24,7 +24,7 @@ int main() {
     // GPIO_DIG = 0x0EU;
     // or using the header file
     GPIO_PORTF_DEN_R  |= (LED_RED|LED_BLUE|LED_GREEN);
-    
+
    
     
     while(1){
